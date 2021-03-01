@@ -3,9 +3,6 @@
  * Licensed under the MIT License. See License-MIT.txt in the project root for license information.
  */
 
-data "aws_availability_zones" "available" {
-  state = "available"
-}
 
 # For the Kubernetes and Helm providers
 # https://www.terraform.io/docs/providers/aws/d/eks_cluster_auth.html
